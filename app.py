@@ -74,7 +74,7 @@ def load_data(path):
 
 base_leasing = load_data("base_leasing_finale.xlsx")
 
-filename_joblib = 'H:/ISE3_Nathan/GT/gt/Notre_code/Modelisation/logistic_regression_model.joblib'
+filename_joblib = 'logistic_regression_model.joblib'
 
 col1, col2 = st.columns([1, 4])
 with col1:
